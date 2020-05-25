@@ -28,8 +28,8 @@ header = {
 
 class Login(object):
     session = requests.session()
-    user_name = "1219013021@njupt.edu.cn"
-    pass_word = "976568ZMR?"
+    user_name = "微博账号"
+    pass_word = "微博密码"
 
     def get_username(self):
         # request.su = sinaSSOEncoder.base64.encode(urlencode(username));
